@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetri Technology Solutions - Java Full Stack</title>
+    <link rel="icon" href="images/VTS Logo-1.png" type="image/png">
+    <link rel="stylesheet" href="java.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <nav class="navbar">
+        <div class="logo">
+          <img src="images/VTS Logo-1.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="frontend.html">VTS PROCESS</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">OUR TRAININGS</a>
+            <div class="dropdown-content">
+              <a href="python.html">PYTHON FULLSTACK</a>
+              <a href="page.html">JAVA FULLSTACK</a>
+              <a href="ux.html">UI/UX DESIGNING</a>
+            </div>
+          </li>
+          <li class="dropdown"> 
+            <a href="#" class="dropbtn">CAREERS</a>
+          </li>  
+      </nav>
+      <nav class="navbar1">
+       <ul class="navbar-menu">
+           <li><a href="#about">About</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#tech">Technical Modules</a></li>
+           <li><a href="#key">Key Features</a></li>
+           <li><a href="#faq">FAQ</a></li>
+       </ul>
+   </nav>
+
+<div class="about" id="about">
+    <section class="about-us" data-aos="fade-up">
+      <div class="about-content">
+        <h1>About Us</h1>
+        <p>Welcome to our Java Full Stack Training program. Learn to develop robust web applications with Java, Spring, Hibernate, and more. Build a career with comprehensive full-stack development skills.</p>
+        <button class="get-started" data-aos="zoom-in">Get Started</button>
+      </div>
+      <div class="about-image" data-aos="fade-left">
+        <img src="images/javaban.jpg" alt="About Java Full Stack">
+      </div>
+    </section>
+</div>
+
+<div class="skills" id="skills">
+    <header>
+      <h1>Skills You'll Learn in Java Full Stack Training</h1>
+    </header>
+    <div class="animated-text" style="margin-top:2px;">
+        Master Full Stack Java Development with Real-World Projects!
+    </div>
+    <div class="content">
+        <div class="skill-card">
+            <img src="images/java-removebg-preview.png" alt="Java" class="skill-image">
+            <h3>Java</h3>
+            <p>Master core Java programming, covering object-oriented programming, multithreading, and collections.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/spring-removebg-preview.png" alt="Spring Framework" class="skill-image">
+            <h3>Spring Framework</h3>
+            <p>Learn Spring Boot and Spring MVC for building secure and scalable backend applications.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/end-removebg-preview.png" alt="Frontend" class="skill-image">
+            <h3>Frontend</h3>
+            <p>Build responsive user interfaces with HTML, CSS, and JavaScript for seamless user experiences.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/angular-removebg-preview.png" alt="Angular" class="skill-image">
+            <h3>Angular</h3>
+            <p>Create dynamic single-page applications using Angular, a powerful JavaScript framework.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/sql-removebg-preview.png" alt="SQL" class="skill-image">
+            <h3>SQL</h3>
+            <p>Work with relational databases, mastering SQL queries, joins, and advanced database techniques.</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/rest-removebg-preview.png" alt="REST API" class="skill-image">
+            <h3>REST API</h3>
+            <p>Design and implement RESTful web services for efficient client-server communication.</p>
+        </div>
+    </div>
+</div>
+
+<div class="tech" id="tech">
+  <header>
+    <h1 style="color: rebeccapurple; text-align: center;">Technical Modules</h1>
+  </header>
+  <div class="carousel">
+      <img src="images/java-removebg-preview.png" alt="Java" data-tech="Java">
+      <img src="images/spring-removebg-preview.png" alt="Spring" data-tech="Spring Framework">
+      <img src="images/end-removebg-preview.png" alt="Frontend" data-tech="Frontend">
+      <img src="images/angular-removebg-preview.png" alt="Angular" data-tech="Angular">
+      <img src="images/sql-removebg-preview.png" alt="SQL" data-tech="SQL">
+      <img src="images/rest-removebg-preview.png" alt="REST API" data-tech="REST API">
+      <img src="images/git-removebg-preview.png" alt="Git" data-tech="Git">
+      <img src="images/dev-removebg-preview.png" alt="DevOps & Deployment" data-tech="DevOps & Deployment">
+      <img src="images/micro-removebg-preview.png" alt="Microservices" data-tech="Microservices">
+      <img src="images/test-removebg-preview.png" alt="Testing" data-tech="Testing">
+  </div>
+  <!-- Modal Content -->
+  <div class="modal">
+    <h2 id="tech-name">Technology</h2>
+    <ul id="modules-list"></ul>
+    <button id="download-notes">Download Syllabus</button>
+  </div>
+  <!-- Overlay for Modal -->
+  <div class="overlay"></div>
+</div>
+
+<div class="key" id="key">
+  <header>
+      Work-Based Features of Java Full-Stack Training <span>🌟</span>
+  </header>
+  <div class="container">
+      <div class="feature">
+        <img src="images/back-removebg-preview.png" alt="Backend Development">
+        <h2>Backend Development</h2>
+        <p>Develop robust server-side logic with Spring Boot and Hibernate for scalable web applications.</p>
+      </div>
+      <div class="feature">
+        <img src="images/front1-removebg-preview.png" alt="Frontend Mastery">
+        <h2>Frontend Mastery</h2>
+        <p>Create responsive user interfaces with modern frontend frameworks like Angular and React.</p>
+      </div>
+      <div class="feature">
+        <img src="images/api-removebg-preview.png" alt="REST API">
+        <h2>REST API Integration</h2>
+        <p>Learn to design and consume RESTful APIs for seamless client-server interaction.</p>
+      </div>
+      <div class="feature">
+        <img src="images/ver-removebg-preview.png" alt="Version Control">
+        <h2>Version Control</h2>
+        <p>Master Git and GitHub for effective collaboration and version management.</p>
+      </div>
+      <div class="feature">
+        <img src="images/test-removebg-preview.png" alt="Testing Techniques">
+        <h2>Testing Techniques</h2>
+        <p>Implement testing strategies to ensure robust and bug-free applications.</p>
+      </div>
+      <div class="feature">
+        <img src="images/deppp-removebg-preview.png" alt="Deployment">
+        <h2>Deployment</h2>
+        <p>Deploy applications to cloud platforms like AWS and monitor performance.</p>
+      </div>
+  </div>
+</div>
+
+
+<div class="faq" id="faq">
+  <h1>Frequently Asked Questions (FAQ)</h1>
+  <div class="faq-container">
+      <div class="faq-item">
+          <h3>What is a Java Full Stack Developer?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              A Java Full Stack Developer is skilled in both frontend and backend technologies, building complete web applications.
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>What technologies are taught in this course?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              The course covers Java, Spring Boot, Hibernate, Angular, REST APIs, and database management (MySQL/PostgreSQL).
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>Are there any prerequisites for this course?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              Basic programming knowledge is recommended, but we provide foundational training for beginners.
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>What kind of projects will I work on?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              You will build real-world applications, such as e-commerce platforms, management systems, and social media apps.
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>What is the course duration?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              The course typically lasts for 3 to 6 months, depending on your pace and learning style.
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>Will I receive a certificate after completion?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              Yes, upon successful completion of the course, you will receive a certification.
+          </div>
+      </div>
+      <div class="faq-item">
+          <h3>How can I get career support after the course?</h3>
+          <span class="arrow arrow-down" onclick="toggleAnswer(this)"></span>
+          <div class="faq-answer">
+              We provide resume building, interview preparation, and job placement assistance to all our students.
+          </div>
+      </div>
+  </div>
+</div>
+
+<script src="java.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+</script>
+</body>
+</html>
